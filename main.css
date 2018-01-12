@@ -1,5 +1,8 @@
 body	{
-	background-color: #1b1c30;
+	background-image: url('http://www.binushacker.net/wp-content/uploads/binushacker-background-digital.gif') !important; 
+	background-repeat:repeat !important; 
+	background-attachment:scroll !important; 
+	background-position:center center !important; 
 	color: #ffffff;
 	font-family: 'Press Start 2P', cursive;
 }
