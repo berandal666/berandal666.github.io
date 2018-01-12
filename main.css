@@ -1,0 +1,98 @@
+body	{
+	background-color: #1b1c30;
+	color: #ffffff;
+	font-family: 'Press Start 2P', cursive;
+}
+h1	{
+	font-family: 'Press Start 2P', cursive;
+	font-size: 30pt;
+	color: #FEFEFE;
+}
+h2	{
+	
+	color: #9E9D9B;
+	font-size:16pt;
+}
+.header	{
+	padding-left: 35px;
+	overflow: auto;
+}
+.cmd	{
+	padding-left: 35px;
+	padding-top: 20px;
+	width: 90%;
+	line-height:20px;
+	color: #ffffff;
+	font-size:10pt;
+	float: top;
+}
+a {
+	color:#ffffff;
+	text-decoration:blink;
+	transition:all .30s ease-in-out;
+}
+
+a:hover{
+	color:#9F51F3;
+}
+.output	{
+	font-family: 'VT323', monospace;
+	font-size: 13pt;
+}
+.blinking-cursor {
+	font-weight: 100;
+	font-size: 36px;
+	color: white;
+	font-family: 'VT323', monospace;
+	-webkit-animation: 1s blink step-end infinite;
+	-moz-animation: 1s blink step-end infinite;
+	-ms-animation: 1s blink step-end infinite;
+	-o-animation: 1s blink step-end infinite;
+	animation: 1s blink step-end infinite;
+}
+
+@keyframes 'blink' {
+	from, to {
+		color: transparent;
+	}
+	50% {
+		color: white;
+	}
+}
+
+@-moz-keyframes blink {
+	from, to {
+		color: transparent;
+	}
+	50% {
+		color: white;
+	}
+}
+
+@-webkit-keyframes 'blink' {
+	from, to {
+		color: transparent;
+	}
+	50% {
+		color: white;
+	}
+}
+
+@-ms-keyframes 'blink' {
+	from, to {
+		color: transparent;
+	}
+	50% {
+		color: white;
+	}
+}
+
+@-o-keyframes 'blink' {
+	from, to {
+		color: transparent;
+	}
+	50% {
+		color: white;
+	}
+}
+@import url('https://fonts.googleapis.com/css?family=VT323');
